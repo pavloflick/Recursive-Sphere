@@ -1,0 +1,24 @@
+/* Style the button container */
+#button-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 10px;
+}
+
+/* Define a style for all buttons */
+button {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.instructions {
+    margin-left: 20px; /* Indent the bullet points */
+}
